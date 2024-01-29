@@ -36,6 +36,7 @@ RUN dpkg --add-architecture i386 && \
   xdg-desktop-portal \
   xdg-desktop-portal-gtk \
   appstream \
+  gettext \
   meson && \
   /usr/bin/cpak-clean-junk
 RUN apt install -y wget lsof pciutils mangohud && \
