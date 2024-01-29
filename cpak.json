@@ -1,0 +1,33 @@
+{
+  "name": "Lutris",
+  "description": "Lutris desktop client.",
+  "version": "0.5.16",
+  "image": "ghcr.io/containerpak/lutris:main",
+  "binaries": ["/usr/bin/lutris"],
+  "desktop_entries": ["/usr/share/applications/lutris.desktop"],
+  "dependencies": [],
+  "addons": [],
+  "idle_time": 0,
+  "override": {
+    "socketX11": true,
+    "socketWayland": true,
+    "socketPulseAudio": true,
+    "socketSessionBus": true,
+    "socketSystemBus": false,
+    "socketSshAgent": false,
+    "socketCups": false,
+    "socketGpgAgent": false,
+    "deviceDri": false,
+    "deviceKvm": false,
+    "deviceShm": false,
+    "deviceAll": true,
+    "fsHost": false,
+    "fsHostEtc": false,
+    "fsHostHome": true,
+    "fsExtra": [],
+    "env": [],
+    "network": true,
+    "process": false,
+    "asRoot": false
+  }
+}
