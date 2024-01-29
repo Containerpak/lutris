@@ -1,7 +1,7 @@
 FROM ghcr.io/containerpak/gtk:main
 ARG DEBIAN_FRONTEND=noninteractive
 RUN dpkg --add-architecture i386 && \
-  apt update \
+  apt update && \
   apt install -y \
   python3-yaml \
   python3-lxml \
