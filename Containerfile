@@ -36,7 +36,8 @@ RUN dpkg --add-architecture i386 && \
   xdg-desktop-portal \
   xdg-desktop-portal-gtk \
   appstream \
-  meson
+  meson && \
+  /usr/bin/cpak-clean-junk
 RUN apt install -y wget lsof pciutils mangohud && \
   wget https://github.com/lutris/lutris/archive/refs/tags/v0.5.16.tar.gz && \
   tar -xvf v0.5.16.tar.gz && \
