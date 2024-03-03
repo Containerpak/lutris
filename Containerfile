@@ -63,8 +63,8 @@ RUN wget https://github.com/lutris/lutris/archive/refs/tags/v0.5.16.tar.gz && \
 
 # 2.0 DIST
 # 2.1 Use the proper platform as the base image
-#FROM ghcr.io/containerpak/gtk:main
-FROM cpak/gtk
+FROM ghcr.io/containerpak/gtk:main
+#FROM cpak/gtk
 
 # 2.2 Copy the built application from the builder image
 COPY --from=builder /app /usr/
