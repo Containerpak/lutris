@@ -1,7 +1,7 @@
 {
   "name": "Lutris",
   "description": "Lutris desktop client.",
-  "version": "0.5.16",
+  "version": "0.5.18",
   "image": "ghcr.io/containerpak/lutris:main",
   "binaries": [
     "/usr/bin/lutris"
