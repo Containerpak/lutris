@@ -22,6 +22,7 @@ RUN apt update && apt install -y --no-install-recommends \
     wget \
     tar \
     make \
+    gettext \
     build-essential
 
 RUN wget -O lutris.tar.gz "https://github.com/lutris/lutris/archive/refs/tags/v${VERSION}.tar.gz" && \
