@@ -15,7 +15,7 @@ RUN apt update && apt install -y --no-install-recommends \
     python3-distro \
     python3-dbus \
     gir1.2-gtk-3.0 \
-    gir1.2-webkit2-4.0 \
+    gir1.2-webkit2-4.1 \
     gir1.2-notify-0.7 \
     meson \
     ninja-build \
@@ -50,7 +50,7 @@ RUN apt update && apt install -y --no-install-recommends \
     python3-distro \
     python3-dbus \
     gir1.2-gtk-3.0 \
-    gir1.2-webkit2-4.0 \
+    gir1.2-webkit2-4.1 \
     gir1.2-notify-0.7 && \
     cpak-clean-junk
 
