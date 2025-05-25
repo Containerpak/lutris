@@ -1,6 +1,6 @@
 {
   "name": "Lutris",
-  "description": "Lutris desktop client.",
+  "description": "Lutris is a video game preservation platform aiming to keep your video game collection up and running for the years to come.",
   "version": "0.5.18",
   "image": "ghcr.io/containerpak/lutris:main",
   "binaries": [
