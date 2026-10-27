@@ -4,7 +4,7 @@
   "name": "Lutris",
   "description": "Install and organize games from different stores and sources.",
   "version": "0.5.22",
-  "image": "ghcr.io/containerpak/lutris@sha256:c8c93a355311d459ba4167c505f232e6d6ab0e196489e38d5b16adc81f597362",
+  "image": "ghcr.io/containerpak/lutris@sha256:2bec1a1d7f471df5eec5e5dcdbe80cbc983275ac87215bc4aa293eb6aed55b6c",
   "binaries": [
     "/usr/games/lutris"
   ],
